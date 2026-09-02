@@ -162,16 +162,18 @@ The product is relevant even without containing the exact query terms. Semantic 
 
 For a catalog of ~100 products, an in-memory embedding matrix with dot product similarity is sufficient and avoids unnecessary infrastructure complexity.
 
-## Testing
+## Libraries & Tools
 
-### Standard Queries
-- Birthday, Wedding, Diwali, Valentine's Day, Office Party
+This project uses the following open-source libraries:
 
-### Semantic Queries
-- Beach wedding, Formal evening celebration, Corporate farewell
-
-### Edge Cases
-- Blank input, nonsensical text, backend unavailable
+| Library | Purpose | License |
+|---------|---------|---------|
+| [FastAPI](https://fastapi.tiangolo.com/) | Web framework for building the API | MIT |
+| [Uvicorn](https://www.uvicorn.org/) | ASGI server for running FastAPI | BSD-3-Clause |
+| [Sentence-Transformers](https://www.sbert.net/) | Semantic embedding generation | Apache-2.0 |
+| [NumPy](https://numpy.org/) | Numerical operations and similarity calculation | BSD-3-Clause |
+| [Pydantic](https://docs.pydantic.dev/) | Data validation and API models | MIT |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework (via CDN) | MIT |
 
 ## Project Structure
 
@@ -199,7 +201,7 @@ product-recommendation/
 ### Product Results
 
 <!-- Paste screenshot here -->
-![Product Results](screenshots/product-results.png)
+![alt text](screenshots/product_result.png)
 
 ## AI Assistance
 
