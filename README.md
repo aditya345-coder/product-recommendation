@@ -201,7 +201,7 @@ product-recommendation/
 ### Product Results
 
 <!-- Paste screenshot here -->
-![alt text](screenshots/product_result.png)
+![Product Results](screenshots/product-results.png)
 
 ## AI Assistance
 
